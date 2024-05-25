@@ -5,10 +5,10 @@
   "type": "module",
   "homepage": "https://Oleksii03.github.io/test",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "vite build src/*.html --public-url /test/",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
